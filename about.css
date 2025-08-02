@@ -1,0 +1,29 @@
+/* About Page */
+.about{
+    width:100%;
+    height: 100vh;
+    /* background-color: rgba(133, 96, 107, 0.196); */
+    background-image:linear-gradient(var(--color-3)), var(--bg-img);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about .heading{
+    color: var(--secondary-color);
+}
+.about .heading span{
+    color: var(--primary-color);
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.about-container .abt-content{
+    width: 600px;
+}
+
+.abt-content p{
+    color: var(--secondary-color);
+}
